@@ -22,5 +22,5 @@ it('can have tags', function () {
     $job->tag('Frontend');
 
     //  Assert
-    expect($job->tag)->toHaveCount(1);
+    expect($job->tags)->toHaveCount(1);
 });
